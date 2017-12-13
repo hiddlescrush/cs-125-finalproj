@@ -83,6 +83,7 @@ public class RockPaperScissors
 			}
 		}
 
+		scan.close();
 		//returns winner
 		if(uScore > cScore) {
 			System.out.println("\nPlayer wins!");
